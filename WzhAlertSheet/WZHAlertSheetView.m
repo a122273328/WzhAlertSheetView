@@ -6,7 +6,7 @@
 //  Copyright © 2017年 UUPT. All rights reserved.
 //
 
-#import "UUAlertSheetView.h"
+#import "WZHAlertSheetView.h"
 //字体
 #define  UUActionSheetCancelButtonFont  [UIFont systemFontOfSize:15]
 #define  UUActionSheetDestructiveButtonFont  [UIFont systemFontOfSize:15]
@@ -61,7 +61,7 @@
 #define  UUActionSheetScreenWidth [UIScreen mainScreen].bounds.size.width
 #define  UUActionSheetScreenHeight [UIScreen mainScreen].bounds.size.height
 
-@interface UUAlertSheetView ()
+@interface WZHAlertSheetView ()
 
 @property (nonatomic,weak) UIScrollView *contentView;
 
@@ -77,7 +77,7 @@
 @end
 
 
-@implementation UUAlertSheetView
+@implementation WZHAlertSheetView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -122,7 +122,7 @@
 + (void)showWithTitle:(NSString*)title andSubTitle:(NSString *)subtitle  orangeTitle:(NSString*)orangeTitle  otherTitles:(NSArray*)otherTitles block:(UUActionSheetBlock)block
 {
     [[UIApplication sharedApplication].keyWindow endEditing:YES];
-    UUAlertSheetView *sheet=[[UUAlertSheetView alloc]init];
+    WZHAlertSheetView *sheet=[[WZHAlertSheetView alloc]init];
     UIWindow *window=[UIApplication sharedApplication].keyWindow;
     sheet.frame=window.bounds;
     sheet.title=title;

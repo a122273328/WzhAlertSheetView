@@ -14,7 +14,7 @@
 		23FD66D01F6B705800EB7328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FD66CF1F6B705800EB7328 /* Assets.xcassets */; };
 		23FD66D31F6B705800EB7328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FD66D11F6B705800EB7328 /* LaunchScreen.storyboard */; };
 		23FD66DE1F6B705800EB7328 /* WzhAlertSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FD66DD1F6B705800EB7328 /* WzhAlertSheetUITests.m */; };
-		23FD66EA1F6B718600EB7328 /* UUAlertSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FD66E91F6B718600EB7328 /* UUAlertSheetView.m */; };
+		23FD66EA1F6B718600EB7328 /* WZHAlertSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FD66E91F6B718600EB7328 /* WZHAlertSheetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		23FD66D91F6B705800EB7328 /* WzhAlertSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WzhAlertSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FD66DD1F6B705800EB7328 /* WzhAlertSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WzhAlertSheetUITests.m; sourceTree = "<group>"; };
 		23FD66DF1F6B705800EB7328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23FD66E81F6B718600EB7328 /* UUAlertSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUAlertSheetView.h; sourceTree = "<group>"; };
-		23FD66E91F6B718600EB7328 /* UUAlertSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUAlertSheetView.m; sourceTree = "<group>"; };
+		23FD66E81F6B718600EB7328 /* WZHAlertSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZHAlertSheetView.h; sourceTree = "<group>"; };
+		23FD66E91F6B718600EB7328 /* WZHAlertSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZHAlertSheetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 				23FD66C71F6B705800EB7328 /* AppDelegate.m */,
 				23FD66C91F6B705800EB7328 /* ViewController.h */,
 				23FD66CA1F6B705800EB7328 /* ViewController.m */,
-				23FD66E81F6B718600EB7328 /* UUAlertSheetView.h */,
-				23FD66E91F6B718600EB7328 /* UUAlertSheetView.m */,
+				23FD66E81F6B718600EB7328 /* WZHAlertSheetView.h */,
+				23FD66E91F6B718600EB7328 /* WZHAlertSheetView.m */,
 				23FD66CC1F6B705800EB7328 /* Main.storyboard */,
 				23FD66CF1F6B705800EB7328 /* Assets.xcassets */,
 				23FD66D11F6B705800EB7328 /* LaunchScreen.storyboard */,
@@ -222,7 +222,7 @@
 				23FD66CB1F6B705800EB7328 /* ViewController.m in Sources */,
 				23FD66C81F6B705800EB7328 /* AppDelegate.m in Sources */,
 				23FD66C51F6B705800EB7328 /* main.m in Sources */,
-				23FD66EA1F6B718600EB7328 /* UUAlertSheetView.m in Sources */,
+				23FD66EA1F6B718600EB7328 /* WZHAlertSheetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,7 @@
 				23FD66E41F6B705800EB7328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23FD66E51F6B705800EB7328 /* Build configuration list for PBXNativeTarget "WzhAlertSheetUITests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				23FD66E71F6B705800EB7328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

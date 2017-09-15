@@ -11,7 +11,7 @@
 
 typedef  void(^UUActionSheetBlock)(int index);
 
-@interface UUAlertSheetView : UIView
+@interface WZHAlertSheetView : UIView
 
 
 /**
